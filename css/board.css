@@ -1,0 +1,319 @@
+.tmbcommon{
+  width: 98%;
+  max-width: 2750px ;
+  border: 1px solid #ff8200;
+  margin: 20px auto;
+  border-radius: 2px;
+  min-height: 100px;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+.divContainer{
+  width: 98%;
+  height: 200px;
+  margin: 0 auto;
+  /* display: flex; */
+  border: 0.5px solid green;
+}
+
+.tabContainer{
+  width: 60%;
+  height: 100%;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding: 50px 20px; */
+  height: 200px;
+}
+
+ul{
+  margin-left: 50px;
+  float: left;
+}
+
+.listDiv{
+  margin-left: 120px;
+}
+
+ul li{
+  line-height: 2em;
+  text-decoration: underline;
+  /* margin-top: 10px; */
+}
+
+.main{
+  padding: 10px 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  /* background: #751248; */
+  background: #ff8200;
+  border-radius: 5px 5px 0px 0px;
+  width: 98%;
+  margin: 0 auto;
+  color: white;
+  font-family: 'Muli';
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 40px;
+  text-align: center;
+}
+
+.mySlides img{
+  width: 100%;
+  height: 150px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  width: 98%;
+  text-align: center;
+  padding: 5px;
+  background: #ddd;
+  /* background:rgb(60,60,60); */
+  /* background-color: #ff8200; */
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.5px solid orange;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  /* font-style: italic; */
+  font-size: 2em;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+
+
+
+.contactsTable{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* background-color: white; */
+  /* text-transform: uppercase; */
+  font-size: 12px;
+  line-height: 1.8;
+  /* background-color:rgb(60,60,60); */
+}
+
+.contactsTable thead{
+  background-color: rgb(60,60,60);
+  /* background-color: #ff8200; */
+  /* background-color: #751248; */
+  color: white;
+}
+
+.contactsTable td{
+  border-bottom: 0.5px solid #ff8200;
+  text-align: center;
+  width: 19.6%;
+}
+.contactsTable tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.contactsTable tbody tr:hover{
+  background-color:#F0F0F0 ; /*751248*/ /*ff8201*/ /*F0F0F0*/
+  color: #ff8201;
+}
+
+.icon-bar {
+  position: fixed;
+  right:0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 80px;
+  border: 1px solid #ff8200;
+  /* background-color: #555; */
+  border-radius: 5px 0 0 5px;
+  z-index: 1;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px 8px;
+  transition: all 0.3s ease;
+}
+
+.icon-bar img{
+  width:45px;
+  height: 45px;
+  transition: transform .2s;
+  /* border-radius:100%; */
+}
+
+.icon-bar img:hover{
+  transform: scale(1.2);
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+#Home {background-color: #4f2a5f;}
+#News {background-color: #28465f;}
+#Contact {background-color: #00a0a4;}
+#About {background-color: #751248;}
+
+
+@media screen and (max-width:1670px) {
+
+  .mainNavContainer{
+    width: 85%;
+  }
+  .main{
+    width: 85%;
+  }
+
+  .divBox{
+    /* margin-right: 5px; */
+  }
+  .leftJustified{
+    /* margin-left: 8px; */
+  }
+
+  .divContainer{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section_title{
+    width: 100%;
+  }
+
+  .contactsTable{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1400px) {
+
+  .mainNavContainer{
+    width: 95%;
+  }
+  .main{
+    width: 95%;
+  }
+
+  .divBox{
+    /* margin-right: 5px; */
+  }
+  .leftJustified{
+    /* margin-left: 8px; */
+  }
+
+  .divContainer{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section_title{
+    width: 100%;
+  }
+
+  .icon-bar{
+    width: auto;
+    position: absolute;
+    right: 3.99999%;
+    top: 130px;
+    border: none;
+  }
+
+  .icon-bar a{
+    display:inline;
+  }
+
+  .icon-bar img{
+    width: 25px;
+    height: 25px;
+  }
+
+
+}

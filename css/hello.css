@@ -1,0 +1,8 @@
+.hello{
+    background-color: red;
+    width: 200px;
+}
+
+.hello:hover{
+  background-color: orange;
+}

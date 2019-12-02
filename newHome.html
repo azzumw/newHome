@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard | Home</title>
+    <!-- favicon icon you see on the tab headers of the browser -->
+    <link rel = "icon" href ="img/headerLogo.ico" type = "image/x-icon" >
+    <link rel="shortcut icon" href="img/headerLogo.ico" type="image/x-icon" >
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navStyle.css">
+    <link rel="stylesheet" href="css/board.css">
+    <script type="text/javascript" src="js/script.js">
+    </script>
+
+  </head>
+  <body>
+
+
+    <div class="mainNavContainer">
+      <img id = "logo" src="img/headerLogo.png">
+      <nav id="navbar">
+        <a href="O:\TA\General\Personal Folders\Azzum\Dashboard\final\meet_the_team.html">Meet The Team</a>
+        <a href="O:\TA\General\Personal Folders\Azzum\Dashboard\final\news.html">News</a>
+        <a href="O:\TA\General\Personal Folders\Azzum\Dashboard\final\teamResponsibilities.html">Responsibilities</a>
+        <a href="O:\TA\General\Personal Folders\Azzum\Dashboard\final\releaseDates.html">Release Dates</a>
+        <a href="O:\TA\General\Personal Folders\Azzum\Dashboard\final\glossary.html">Glossary</a>
+      </nav>
+      <p>Home</p>
+    </div>
+
+    <div class="icon-bar">
+      <a href="http://tcsnestalm:8080/qcbin" target="_blank"><img src="img/board/alm3.png" alt="" title="ALM Web"></a>
+      <a href="https://outlook.office365.com/owa/?realm=nestcorporation.org.uk" target="_blank"><img src="img/board/outlook4.png" title="Outlook"alt=""></a>
+      <a href="https://teams.microsoft.com" target="_blank"><img src="img/board/teams5.png" alt="" title="Teams"></a>
+      <a href="https://app.matrixbooking.com/ui/#/find" target="_blank"><img src="img/board/matrix.jpg" alt="" title="Matrix Booking"></a>
+      <a href="https://citrix.ncgwsa.org.uk/vpn/index.html" target="_blank"><img src="img/board/citrixicon.png" alt="" title="Citrix"></a>
+    </div>
+
+
+    <div class="main">
+      <div class="slideshow-container">
+              <!-- Full-width slides/quotes -->
+        <div class="mySlides">
+          <!-- <img src="img/hero-tab.png" alt=""> -->
+          <q>SR20 Hotbox now available</q>
+
+
+          <p class="author">- Dashboard Updates</p>
+        </div>
+
+        <!-- <div class="mySlides">
+          <q></q>
+          <p class="author">- Dashboard Updates</p>
+        </div> -->
+
+        <div class="mySlides">
+          <q>New Abbreviations added to the glossary. Search for API, DNS and IP/OR</q>
+          <p class="author">- Glossary Page</p>
+        </div>
+
+        <!-- <div class="mySlides">
+          <q>Yes Sir!</q>
+          <p class="author">- Miro</p>
+        </div> -->
+
+        <!-- Next/prev buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+
+            <!-- Dots/bullets/indicators -->
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+        <!-- <span class="dot" onclick="currentSlide(4)"></span> -->
+      </div>
+
+      <div class="tmbcommon">
+        <div class="tabContainer">
+          <button class="tablink" onmouseover="openPage('Home', this, '#4f2a5f')" id="defaultOpen">MR18.1</button>
+          <button class="tablink" onmouseover="openPage('News', this, '#28465f')">SR19</button>
+          <button class="tablink" onmouseover="openPage('Contact', this, '#00a0a4')">SR20</button>
+            <!-- <button class="tablink" onclick="openPage('Contact', this, '#00a0a4')">SR20</button> -->
+          <button class="tablink" onmouseover="openPage('About', this, '#751248')">Assurance</button>
+
+          <div id="Home" class="tabcontent">
+            <ul>
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+            </ul>
+
+            <ul class="listDiv">
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+            </ul>
+
+            <ul class="listDiv">
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+              <li>Variance Log</li>
+            </ul>
+
+          </div>
+
+          <div id="News" class="tabcontent">
+            <h3>SR19</h3>
+            <p>Some news this fine day!</p>
+          </div>
+
+          <div id="Contact" class="tabcontent">
+            <h3>SR20</h3>
+            <p>Get in touch, or swing by for a cup of coffee.</p>
+          </div>
+
+          <div id="About" class="tabcontent">
+            <h3>Assurance</h3>
+            <p>Who we are and what we do.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!--Middle Test Tool Section  -->
+          <!-- tmbcommon stands for top middle bottom common - it's a class with common properties shared amongst top middle and bottom sections -->
+      <!-- <div class="middle tmbcommon">
+
+        <div class="section_title">
+          Test Tools
+        </div>
+
+        <div class="divContainer">
+        </div>
+
+      </div> -->
+
+      <!-- Contacts Section -->
+        <!-- tmbcommon stands for top middle bottom common - it's a class with common properties shared amongst top middle and bottom sections -->
+      <div class="bottom tmbcommon">
+        <div class="section_title">
+          Contact Details
+        </div>
+        <table class="contactsTable">
+          <thead>
+            <tr>
+              <th scope="col">About</th>
+              <th scope="col">Contact(s)</th>
+              <th scope="col">Email</th>
+              <th scope="col" colspan="2">Phone Numbers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">UAT Environment<br>Requests<br>(Batchmasters)</td>
+              <td>Pavan</td>
+              <td><a href="mailto:Pavan.Dhanya@nestpensions.org.uk"/>Pavan</td>
+              <td>01733366260</td>
+              <td>+447570209209</td>
+            </tr>
+
+            <tr>
+              <!-- <td>Requests/Queries</td> -->
+              <td>Suprava</td>
+              <td><a href="mailto:Sutar.Suprava@nestpensions.org.uk"/>Suprava</td>
+              <td>01733366282</td>
+              <td>+447438770941</td>
+            </tr>
+
+            <tr>
+              <!-- <td>Batchmasters</td> -->
+              <td>Ayush</td>
+              <td><a href="mailto:Ayush.9@nestpensions.org.uk"/>Ayush</td>
+              <td>+918051173780</td>
+              <td>+917892290131</td>
+            </tr>
+
+            <tr>
+              <td>SIT</td>
+              <td>Amar</td>
+              <td><a href="mailto:Amarnath.Shiva@nestpensions.org.uk"/>Amar</td>
+              <td>0091 80 67251769</td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>OAT</td>
+              <td>Gautam Parui</td>
+              <td><a href="mailto:gautam.parui@nestpensions.org.uk"/>Gautam Parui</td>
+              <td>+919051886626</td>
+              <td>+913366363460 </td>
+            </tr>
+
+            <tr>
+              <td>NEST IT Issues</td>
+              <td>IT Service Desk</td>
+              <td><a href="mailto:nestservicedesk@advanced365.com"/>IT Service Desk</td>
+              <td>Internal: 300</td>
+              <td>External: 02030 563600</td>
+            </tr>
+
+            <tr>
+              <td>NEST Facility Issues</td>
+              <td>Facilities Team</td>
+              <td><a href="mailto:facilities@nestcorporation.org.uk"/>Facilities</td>
+              <td>02030 563600</td>
+              <td></td>
+            </tr>
+
+          </tbody>
+        </table>
+
+
+      </div>
+    </div>
+
+  </body>
+
+
+  <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").onmouseover();
+</script>
+
+
+</html>
